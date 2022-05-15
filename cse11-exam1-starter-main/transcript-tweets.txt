@@ -1,0 +1,61 @@
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: ExamplesTweets:
+---------------------------
+ExamplesTweets:
+---------------
+new ExamplesTweets:1(
+ this.t1 = new Tweet:2(
+  this.author = new User:3(
+   this.name = "Pranav"
+   this.email = "pvijay@ucsd.edu"
+   this.followers = 50)
+  this.content = "World!"
+  this.tweetId = "16743255"
+  this.likes = 34
+  this.date = new Date:4(
+   this.month = 5
+   this.day = 20
+   this.year = 2003))
+ this.t2 = new Tweet:5(
+  this.author = new User:6(
+   this.name = "Pranav"
+   this.email = "pvijay@ucsd.edu"
+   this.followers = 63)
+  this.content = "HelloWorld!"
+  this.tweetId = "16743255"
+  this.likes = 47
+  this.date = new Date:7(
+   this.month = 6
+   this.day = 20
+   this.year = 2003))
+ this.t3 = new Tweet:8(
+  this.author = new User:9(
+   this.name = "Pranav"
+   this.email = "pvijay@ucsd.edu"
+   this.followers = 49)
+  this.content = "Hello!"
+  this.tweetId = "16743255"
+  this.likes = 31
+  this.date = new Date:10(
+   this.month = 5
+   this.day = 16
+   this.year = 2003))
+ this.t4 = new Tweet:11(
+  this.author = new User:12(
+   this.name = "Pranav"
+   this.email = "pvijay@ucsd.edu"
+   this.followers = 103)
+  this.content = "CSE11!"
+  this.tweetId = "16743255"
+  this.likes = 76
+  this.date = new Date:13(
+   this.month = 4
+   this.day = 10
+   this.year = 2005))
+ this.tweetExample1 = false
+ this.tweetExample2 = true
+ this.tweetExample3 = false
+ this.tweetExample4 = false)
+---------------
+No test methods found.

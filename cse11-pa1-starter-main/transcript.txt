@@ -1,0 +1,70 @@
+Perimeter output:
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: DesignRecipeExamples:
+---------------------------
+DesignRecipeExamples:
+---------------
+new DesignRecipeExamples:1(
+ this.x = 20
+ this.y = 18)
+---------------
+No test methods found.
+
+
+Border area output:
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: DesignRecipeExamples:
+---------------------------
+DesignRecipeExamples:
+---------------
+new DesignRecipeExamples:1(
+ this.x = 20
+ this.y = 18
+ this.a = 29
+ this.b = 16)
+---------------
+No test methods found.
+
+
+Converter output:
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: DesignRecipeExamples:
+---------------------------
+DesignRecipeExamples:
+---------------
+new DesignRecipeExamples:1(
+ this.x = 20
+ this.y = 18
+ this.a = 29
+ this.b = 16
+ this.temp1 = -273
+ this.temp2 = -258)
+---------------
+No test methods found.
+
+
+Combiner output:
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: DesignRecipeExamples:
+---------------------------
+DesignRecipeExamples:
+---------------
+new DesignRecipeExamples:1(
+ this.x = 20
+ this.y = 18
+ this.a = 29
+ this.b = 16
+ this.temp1 = -273
+ this.temp2 = -258
+ this.bill1 = 34
+ this.bill2 = 78)
+---------------
+No test methods found.
+
+
+
+

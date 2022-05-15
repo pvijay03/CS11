@@ -1,0 +1,12 @@
+pranavvijay@Pranavs-MacBook-Pro cse11-pa5-starter-master % javac Longest.java
+pranavvijay@Pranavs-MacBook-Pro cse11-pa5-starter-master % java Longest which argument is the longest
+argument
+pranavvijay@Pranavs-MacBook-Pro cse11-pa5-starter-master % java Longest one two three four
+three
+pranavvijay@Pranavs-MacBook-Pro cse11-pa5-starter-master % java Longest
+pranavvijay@Pranavs-MacBook-Pro cse11-pa5-starter-master % java Longest you are him
+you
+pranavvijay@Pranavs-MacBook-Pro cse11-pa5-starter-master % java Longest hello are they dead
+hello
+pranavvijay@Pranavs-MacBook-Pro cse11-pa5-starter-master % java Longest are they in here     
+they

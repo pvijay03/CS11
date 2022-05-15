@@ -1,0 +1,84 @@
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: ExamplesTweets:
+---------------------------
+ExamplesTweets:
+---------------
+new ExamplesTweets:1(
+ this.pranav = new User:2(
+  this.user = "pranavvijay"
+  this.display = "Pranav Vijay"
+  this.followers = 1252)
+ this.emma = new User:3(
+  this.user = "emmaharoldson"
+  this.display = "Emma Haroldson"
+  this.followers = 865)
+ this.anders = new User:4(
+  this.user = "andersroback"
+  this.display = "Rachel Leholm"
+  this.followers = 1103)
+ this.t6 = new TextTweet:5(
+  this.contents = "Programming fun!"
+  this.likes = 325
+  this.author = User:4)
+ this.t7 = new TextTweet:6(
+  this.contents = "I am in CSE 11"
+  this.likes = 543
+  this.author = User:3)
+ this.t8 = new ReplyTweet:7(
+  this.contents = "I am in CSE 11"
+  this.likes = 284
+  this.author = User:2
+  this.replyTo = TextTweet:6)
+ this.t9 = new ReplyTweet:8(
+  this.contents = "Hello World!"
+  this.likes = 311
+  this.author = User:2
+  this.replyTo = null)
+ this.t10 = new ReplyTweet:9(
+  this.contents = "I am in CSE 11"
+  this.likes = 172
+  this.author = User:4
+  this.replyTo = ReplyTweet:7)
+ this.joe = new User:10(
+  this.user = "joepolitz"
+  this.display = "Joe Gibbs Politz"
+  this.followers = 999)
+ this.greg = new User:11(
+  this.user = "gregory_miranda"
+  this.display = "Greg Miranda"
+  this.followers = 9999)
+ this.rachel = new User:12(
+  this.user = "Rachel__Lim"
+  this.display = "Rachel Lim"
+  this.followers = 1000000)
+ this.t1 = new TextTweet:13(
+  this.contents = "Java 17 has a cool feature called records"
+  this.likes = 77
+  this.author = User:10)
+ this.t2 = new ReplyTweet:14(
+  this.contents = "Hmm I wonder if we could use it for CSE11"
+  this.likes = 12
+  this.author = User:11
+  this.replyTo = TextTweet:13)
+ this.t3 = new ReplyTweet:15(
+  this.contents = "Thought about this more, probably not yet, too new."
+  this.likes = 73
+  this.author = User:11
+  this.replyTo = ReplyTweet:14)
+ this.t4 = new ReplyTweet:16(
+  this.contents = "Yeah, good point. Maybe in 2022."
+  this.likes = 10
+  this.author = User:10
+  this.replyTo = ReplyTweet:15)
+ this.t5 = new ReplyTweet:17(
+  this.contents = "Yeah... I don't want to rewrite the book right this minute"
+  this.likes = 1005
+  this.author = User:12
+  this.replyTo = ReplyTweet:14))
+---------------
+
+Ran 27 tests.
+All tests passed.
+
+--- END OF TEST RESULTS ---

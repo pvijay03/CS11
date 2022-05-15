@@ -1,0 +1,14 @@
+pranavvijay@Pranavs-MacBook-Pro Exam2-starter-main % javac WordFilter.java
+pranavvijay@Pranavs-MacBook-Pro Exam2-starter-main % java WordFilter an apple banana panama orangutan pizza
+banana
+panama
+orangutan
+pranavvijay@Pranavs-MacBook-Pro Exam2-starter-main % java WordFilter not-a-substring apple banana panama
+0 words contained "not-a-substring"
+pranavvijay@Pranavs-MacBook-Pro Exam2-starter-main % java WordFilter app apple banana app panama orangutan pizza
+apple
+app
+pranavvijay@Pranavs-MacBook-Pro Exam2-starter-main % java WordFilter
+Provide at least one command-line argument
+pranavvijay@Pranavs-MacBook-Pro Exam2-starter-main % java WordFilter something
+0 words contained "something"
